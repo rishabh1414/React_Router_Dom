@@ -1,0 +1,41 @@
+#ProductContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.product {
+  /* Add your CSS styles for the product container here */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 200px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.product:hover {
+  background-color: rgb(244, 252, 255);
+}
+.product img {
+  /* Add your CSS styles for the product image here */
+  height: 200px;
+}
+.productID {
+  background-color: #ccc;
+}
+.product:where(.id) {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}

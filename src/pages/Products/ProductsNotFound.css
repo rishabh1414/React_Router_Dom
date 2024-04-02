@@ -1,0 +1,8 @@
+.products-not-found {
+  text-align: center;
+}
+
+.products-not-found h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
